@@ -1,0 +1,60 @@
+
+.event-content__main { 
+    width: 95%;
+    margin: 0.5rem auto;
+    background-color: rgb(238, 241, 245);
+    display: block;
+    border-radius: 20px;
+    font-family: Cinzel;
+    overflow: auto;
+}
+
+h2 {
+    padding: 0.3rem 0 0 0;
+    font-family: Cinzel;
+    font-weight: bolder;
+}
+
+.event-content__program p{
+   font-size: x-large;
+   margin: 0;
+}
+
+.event-content__info{
+ width: 95%;
+}
+
+.event-content__info img {
+    width: 70%;
+    display: block;
+    margin: 0.5rem auto; 
+}
+
+.event-content__info a {
+    display: block;
+    margin: 12px 25px;
+    text-align: end;
+    text-decoration: none;
+}
+
+@media (min-width: 680px) {
+  .event-content__main {
+    display: flex;
+    width: 90%;
+  }
+  h2 {
+      font-size: 40px;
+  }
+  .event-content__program p{
+    font-size: xx-large;
+ }
+  .event-content__info {
+      width: 35%;
+  }
+  
+  .event-content__program {
+      width: 50%;
+  }
+  
+ 
+}

@@ -1,0 +1,67 @@
+
+.container {
+    position: relative;
+    display: flex;
+    min-height: 80vh;
+    background: #ffffff;
+    align-items: center;
+}
+
+.container .ima{
+    background-image: url('church1.jpg');
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.overlay {
+    height: 80vh;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to top, rgba(65, 64, 64, 0.884), rgba(150, 149, 148, 0.562));
+}
+
+.text{
+    z-index: 2;
+    width: 100%;
+    height: 60vh;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 35px;
+    font-family: Cinzel;
+    font-weight: bolder;
+}
+
+.text h3 {
+    font-size: 25px;
+    font-family: Cinzel;
+    font-weight: bolder;
+}
+.content-section {
+   justify-content: center;
+   text-align: center;
+   height: 77vh;
+   overflow: auto;
+   background-color: #ffffff;
+}
+
+
+@media (min-width: 700px) {
+ .content-section {
+     height: 70vh;
+ }
+  .text h2{
+    font-size: 50px;
+  }
+  .text h3{
+      font-size: 40px;
+  }
+}

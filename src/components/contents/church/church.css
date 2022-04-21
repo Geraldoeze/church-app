@@ -1,0 +1,41 @@
+.church-main {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.church-main h2 {
+    font-weight: bold ;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.church-main p {
+    font-size: 20px;
+    margin: 1rem 0;
+}
+
+.church-image img {
+    display: block;
+    margin: 1.4rem auto;
+    width: 70%;
+ }
+
+ @media (min-width: 650px) {
+     .church-main {
+         display: flex;
+     }
+     .church-image {
+        width: 35%;
+    }
+     .church-image img {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+     }
+    
+     .church-sub{
+         width: 65%;
+     }
+
+ }

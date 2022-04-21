@@ -1,0 +1,55 @@
+.vision {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-main {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vision-main h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.vision-main p {
+    margin: 1rem 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.vision-image img {
+    display: block;
+    margin: 1.4rem auto;
+    width: 70%;
+}
+
+.btn1{
+    justify-content: center;
+    text-align: center;
+} 
+
+
+ @media (min-width: 650px) {
+   .vision {
+       display: flex;
+   }
+    .vision-image {
+        width: 35%;
+    }
+    .vision-image img {
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .vision-main {
+        width: 65%;
+    }
+ }
