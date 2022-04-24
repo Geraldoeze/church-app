@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from '../../Button/Button';
-import Line from '../../Button/under-line';
 import EventPage from '../../EventPage/EventPage';
-import SocialM from '../../Social-M/Social-M';
 import Church from '../church/church';
 import About from '../SA/About';
 import './HomeContent.css'
@@ -21,7 +19,6 @@ const HomeContent = () => {
              </div>
          </div>
         {/* Middle section */}
-            <Line />
             <section>
                 <Church />
             </section>
@@ -30,10 +27,8 @@ const HomeContent = () => {
             </section> 
             {/* Bottom Section */}
             <section>
-                <Line />
                 <About />
             </section>
-            <SocialM />
         </>
      );
 }

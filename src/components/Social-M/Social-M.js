@@ -1,15 +1,15 @@
 import React from 'react';
 import './Social-M.css';
+import 'primeicons/primeicons.css'
+import Line from '../Button/under-line';
 
 const SocialM = () => {
     return ( 
-        <div className='social'>
             <ul className='social-list'>
-                <li><a href='/'>Youtube</a></li>
-                <li><a href='/'>Twitter</a></li>
-                <li><a href='/'>Instagram</a></li>
+                <a href='www.facebook.com' ><i className='pi pi-facebook' style={{'fontSize': '1.5em'}}></i></a>
+                <a href='www.youtube.com' ><i className='pi pi-youtube' style={{'fontSize': '1.5em'}}></i></a>
+                <a href='www.twitter.com' ><i className='pi pi-twitter' style={{'fontSize': '1.5em'}} ></i></a>
             </ul>
-        </div>
      );
 }
  

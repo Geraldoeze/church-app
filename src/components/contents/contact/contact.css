@@ -1,6 +1,15 @@
 .contact {
     width: 100%;
     height: 80vh;
+    background-image: url('../../../Images/praise.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact img {
+    width: 100%;
+    height: 100vh;
 }
 
 
@@ -9,14 +18,14 @@
     font-size: 30px;
     text-align: center;
     padding: 1rem 0 0 0;
-    color: rgb(30, 14, 252);
+    color: #ffffff;
 }
 .contact-form {
     border: 1px solid rgb(0, 110, 255);
     text-align: center;
     width: 90%;
     color: rgb(30, 14, 252);;
-    background: rgba(241, 246, 250, 0.836);
+    background:transparent;
     margin: 0 auto;
     height: 75%;
 }

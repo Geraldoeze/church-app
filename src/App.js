@@ -6,6 +6,7 @@ import HomeContent from "./components/contents/HomeContents/HomeContents";
 import Footer from "./components/Footer/footer";
 import MainNavigation from "./components/Navigation/MainNavigation";
 
+
 const App = () => {
  
   const routes = ( 

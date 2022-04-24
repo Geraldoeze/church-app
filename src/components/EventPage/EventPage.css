@@ -2,9 +2,9 @@
 .event-content__main { 
     width: 95%;
     margin: 0.5rem auto;
-    background-color: rgb(238, 241, 245);
+    background-color: rgb(207, 207, 207);
     display: block;
-    border-radius: 20px;
+    border-radius: 5px;
     font-family: Cinzel;
     overflow: auto;
 }
@@ -13,6 +13,8 @@ h2 {
     padding: 0.3rem 0 0 0;
     font-family: Cinzel;
     font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .event-content__program p{

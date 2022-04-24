@@ -14,13 +14,13 @@
   display: block;
   width: 2rem;
   height: 2.5px;
-  background: rgb(52, 50, 173);
+  background: rgb(5, 3, 70);
 }
 
 
 .main-navigation__title a {
   text-decoration: none;
-  color: rgba(15, 163, 248, 0.897);
+  color: rgba(255, 255, 255, 0.897);
 }
 
 .main-navigation__header-nav {

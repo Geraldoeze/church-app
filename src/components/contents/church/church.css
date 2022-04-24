@@ -1,17 +1,25 @@
 .church-main {
-    text-align: center;
-    width: 90%;
+    width: 80%;
+    background: #fefefe;
     margin: auto;
+    height: 60%;
+    padding: 3rem 0 1rem 0 ;
 }
 
+
+.church-sub {
+    text-align: center;
+}
 .church-main h2 {
-    font-weight: bold ;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 34px;
+    letter-spacing: 3px;
+ 
 }
 
 .church-main p {
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 1px;
     margin: 1rem 0;
 }
 
@@ -22,6 +30,9 @@
  }
 
  @media (min-width: 650px) {
+    .church-sub {
+        text-align: start;
+    }
      .church-main {
          display: flex;
      }

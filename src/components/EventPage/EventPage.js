@@ -21,7 +21,6 @@ const EventPage = () => {
                         <p>{data.time}</p>
                         <div><Button to="/contact" change="btn" >Learn More</Button></div>
                     </div>    
-            
                 </div>
                 <Line />
               </> 

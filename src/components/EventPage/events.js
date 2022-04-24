@@ -5,7 +5,7 @@ export const Events = [
        name: "Main Service",
        days: "Sundays",
        time: "10am-2pm",
-       image: "lion.jpg",
+       image: "praise.jpg",
        desc: "",
        preacher: ""
     },

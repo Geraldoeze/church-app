@@ -1,13 +1,11 @@
 import React from 'react';
 import './footer.css'
+import FooterEvents from './footerEvents/footerEvents';
 
 const Footer = () => {
     return ( 
-        <div className='footer-main'>
-            <footer>
-                Churchs Location
-            </footer>
-            
+        <div>
+            <FooterEvents />
         </div>
      );
 }

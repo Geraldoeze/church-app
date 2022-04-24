@@ -6,7 +6,6 @@ import './Vision.css';
 const Vision = () => {
     return ( 
         <>
-        <Line />
         <div className='vision'>
           <div className='vision-main'>
             <h2>Our Vision</h2> 
@@ -19,7 +18,6 @@ const Vision = () => {
           </div>
         </div>
         <Line />
-
         </>
      );
 }

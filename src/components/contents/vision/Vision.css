@@ -1,27 +1,26 @@
 .vision {
-    width: 90%;
-    margin: 0 auto;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
+    width: 80%;
+    background: #fefefe;
+    margin: auto;
+    height: 60%;
+    padding: 3rem 0 1rem 0 ;
 }
 
 .vision-main {
     text-align: center;
-    width: 90%;
-    margin: 0 auto;
 }
 
 .vision-main h2 {
-    font-weight: bold;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 34px;
+    letter-spacing: 3px;
+ 
 }
 
 .vision-main p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 1px;
     margin: 1rem 0;
-    font-weight: bolder;
-    font-size: 20px;
 }
 
 
@@ -50,6 +49,7 @@
         text-align: center;
     }
     .vision-main {
+        text-align: start;
         width: 65%;
     }
  }
