@@ -4,6 +4,7 @@
     margin: 0.5rem auto;
     background-color: rgb(207, 207, 207);
     display: block;
+    height: 12rem;
     border-radius: 5px;
     font-family: Cinzel;
     overflow: auto;
@@ -39,13 +40,19 @@ h2 {
     text-decoration: none;
 }
 
+.btn1 {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+ }
+
 @media (min-width: 680px) {
   .event-content__main {
     display: flex;
     width: 90%;
   }
   h2 {
-      font-size: 40px;
+      font-size: 35px;
   }
   .event-content__program p{
     font-size: xx-large;

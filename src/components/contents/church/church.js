@@ -12,7 +12,7 @@ const Church = () => {
                     <p>We are on a mission to bring people closer to God. It doesnt matter your background or where you're from.
                         We are all equal in the eyes of God and so we all must come together as one family with God as our Father in Heaven.
                     </p>
-                    <Button> Learn More</Button>
+                    <Button change="btn"> Learn More</Button>
                 </div>
                 <div className='church-image'>
                     <img src='service.jpg' alt='peace' />

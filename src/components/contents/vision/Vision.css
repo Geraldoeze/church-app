@@ -1,6 +1,6 @@
 .vision {
-    width: 80%;
-    background: #fefefe;
+    width: 100%;
+    background: #e6e3e3;
     margin: auto;
     height: 60%;
     padding: 3rem 0 1rem 0 ;
@@ -11,6 +11,8 @@
 }
 
 .vision-main h2 {
+    width: 80%;
+    margin: 0 auto;
     font-size: 34px;
     letter-spacing: 3px;
  
@@ -20,7 +22,8 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 1px;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    width: 80%;
 }
 
 

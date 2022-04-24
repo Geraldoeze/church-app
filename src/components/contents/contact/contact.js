@@ -10,7 +10,6 @@ const Contact = () => {
             <h2 className='contact-title'>Church Contact Form</h2>
           <div className='contact-form'>
           <form onSubmit={''}>
-            <h3>Get in touch with us</h3>
             <input type="text" name="name"  placeholder="Name" id="name" />
             <input type="email" name="email" placeholder="Email" id="mail" />
             <input type="text" name="subject" placeholder="Subject" id="topic" />

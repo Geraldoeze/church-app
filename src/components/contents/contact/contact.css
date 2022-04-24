@@ -23,9 +23,9 @@
 .contact-form {
     border: 1px solid rgb(0, 110, 255);
     text-align: center;
-    width: 90%;
+    width: 60%;
     color: rgb(30, 14, 252);;
-    background:transparent;
+    background: rgba(255, 255, 255, 0.808);
     margin: 0 auto;
     height: 75%;
 }

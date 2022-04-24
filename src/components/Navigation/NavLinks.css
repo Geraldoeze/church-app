@@ -11,13 +11,11 @@
   }
   
   .nav-links li {
-    margin: 1rem;
-    color: red;
-    
+    margin: 1rem;  
   }
   
   .nav-links a {
-    border: 1px solid rgb(156, 153, 153);
+    border: 1px solid rgb(0, 85, 255);
     color: #292929;
     text-decoration: none;
     padding: 0.5rem;
@@ -26,10 +24,11 @@
   .nav-links a:hover,
   .nav-links a:active,
   .nav-links a.active {
-    background: #585851;
-    border-color: #292929;
+    background: #04326e;
+    border-color: #1448f0;
     border-radius: 2px;
     color: #dadada;
+    transition: all ease-in-out 800ms;
   }
   
  
