@@ -4,7 +4,7 @@ import FooterEvents from './footerEvents/footerEvents';
 
 const Footer = () => {
     return ( 
-        <div>
+        <div className='footer'>
             <FooterEvents />
         </div>
      );

@@ -10,7 +10,7 @@ const FooterEvents = () => {
           <section className='footer-section'>
               <div className='footer-main'>
                   <h4>Global Assembly LOGO</h4>
-                  <p>Welcome to Global Assembly ministries, a Jesus-centered church in Abuja</p>
+                  <p>Welcome to Global Assembly ministry. A Jesus-centered church in Abuja</p>
                   <p><span>Contact Us</span> +234-9058833298</p>
               </div>
               <div className='footer-sub'>

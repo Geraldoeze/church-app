@@ -1,7 +1,8 @@
 .footer-section {
  display: block;
  background: rgba(57, 58, 61, 0.938);
- width: 100%;
+ width: 90%;
+ margin: auto;
  color: rgb(165, 165, 165);
  padding-top: 6px;
 }
@@ -58,12 +59,7 @@ p {
 span {
     color: white;
 }
-input {
-    border: 2px solid rgb(206, 99, 99);
-    height: 40px;
-    width: 10rem;
-    margin: 0 1rem;
-}
+
 
 @media (min-width: 768px) { 
     .footer-section {
