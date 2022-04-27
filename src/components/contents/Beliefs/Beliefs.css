@@ -1,0 +1,45 @@
+.beliefs {
+ display: block;
+ width: 95%;
+ text-align: center;
+}
+.p-text{
+ margin: 0.5rem;
+ font-size: 16px;
+}
+.h-text{
+    font-family: Cinzel;
+    font-size: 28px;
+    font-weight: bold;
+}
+.pic{
+ width: 60%;
+ height: 30vh;
+}
+.beliefs-main {
+ font-family: sans-serif;   
+ display: block;
+ width: 80%;
+ margin: auto;
+ padding: 1rem;
+}
+
+.text-h2 {
+ font-size: 25px;
+ font-weight: bold;
+ color: rgb(63, 63, 63);
+}
+.text-p2{
+color: dimgrey;
+font-size: 18px;
+font-weight: 100;
+}
+
+@media (min-width: 650px) {
+    .beliefs {
+        display: flex;
+        padding: 2rem;
+        margin: auto;
+        
+    }
+}

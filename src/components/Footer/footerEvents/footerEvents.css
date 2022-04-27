@@ -3,41 +3,41 @@
  background: rgba(57, 58, 61, 0.938);
  width: 90%;
  margin: auto;
- color: rgb(165, 165, 165);
+ color: rgb(216, 216, 216);
  padding-top: 6px;
 }
 
 .footer-main  {
     width: 95%;
-     margin: auto;
+     margin: auto 1rem;
     height: 8rem;
     line-height: 20px;
 }
 
 .footer-sub {
     width: 95%;
-    margin: auto;
+    margin: auto 1rem;
    height: 8rem;
    line-height: 20px;
 }
 
 .footer-links {
     width: 95%;
-    margin: auto;
+    margin: auto 1rem;
    height: 12rem;
    line-height: 20px;
 }
 
 .footer-support {
     width: 95%;
-    margin: auto;
+    margin: auto 1rem;
    height: 10rem;
    line-height: 20px;
 }
 .section-end {
     display: block;
     height: 2rem;
-    background: rgb(66, 62, 62);
+    background: rgb(53, 53, 53);
     text-align: center;
 }
 
@@ -46,14 +46,14 @@
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: underline;
     margin-bottom: 0.6rem;
 }
 
 p {
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 span {
@@ -65,6 +65,7 @@ span {
     .footer-section {
         display: flex;
         height: 18rem;
+        width: 95%;
     }
     .footer-main {
         width: 25%;

@@ -2,9 +2,9 @@
 .event-content__main { 
     width: 95%;
     margin: 0.5rem auto;
-    background-color: rgb(207, 207, 207);
+    background-color: #e6e3e3;;
     display: block;
-    height: 12rem;
+    height: 17rem;
     border-radius: 5px;
     font-family: Cinzel;
 }
@@ -39,7 +39,7 @@ h2 {
     text-decoration: none;
 }
 
-.btn1 {
+.btn3 {
     display: block;
     width: 60%;
     margin: 0 auto;

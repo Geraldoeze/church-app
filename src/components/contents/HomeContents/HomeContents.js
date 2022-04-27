@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../../Button/Button';
 import EventPage from '../../EventPage/EventPage';
+import Beliefs from '../Beliefs/Belief';
 import Church from '../church/church';
 import About from '../SA/About';
 import './HomeContent.css'
@@ -21,6 +22,10 @@ const HomeContent = () => {
         {/* Middle section */}
             <section>
                 <Church />
+            </section>
+        {/* Beliefs section */}
+            <section>
+                <Beliefs />
             </section>
             <section className='content-section'>
               <EventPage />

@@ -18,7 +18,7 @@ const EventPage = () => {
                     <div className='event-content__program'>
                         <h2>{data.name}</h2>
                         <p>{data.days}</p>
-                        <div><Button to="/contact" change="btn1" >{data.time}</Button></div>
+                        <div><Button to="/contact" change="btn3" >{data.time}</Button></div>
                     </div>    
                 </div>
                 <Line />
