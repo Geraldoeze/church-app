@@ -3,6 +3,7 @@ import Button from '../../Button/Button';
 import EventPage from '../../EventPage/EventPage';
 import Beliefs from '../Beliefs/Belief';
 import Church from '../church/church';
+import Connect from '../connect/connect';
 import About from '../SA/About';
 import './HomeContent.css'
 
@@ -26,6 +27,7 @@ const HomeContent = () => {
         {/* Beliefs section */}
             <section>
                 <Beliefs />
+                <Connect />
             </section>
             <section className='content-section'>
               <EventPage />

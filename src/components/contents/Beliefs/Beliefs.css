@@ -6,20 +6,23 @@
 .p-text{
  margin: 0.5rem;
  font-size: 16px;
+ text-align: center;
 }
 .h-text{
     font-family: Cinzel;
     font-size: 28px;
     font-weight: bold;
+    text-align: center;
 }
 .pic{
  width: 60%;
  height: 30vh;
+ margin: 0.4rem;
 }
 .beliefs-main {
  font-family: sans-serif;   
  display: block;
- width: 80%;
+ width: 90%;
  margin: auto;
  padding: 1rem;
 }
@@ -27,7 +30,8 @@
 .text-h2 {
  font-size: 25px;
  font-weight: bold;
- color: rgb(63, 63, 63);
+ font-family: sans-serif;
+ color: rgb(39, 38, 38);
 }
 .text-p2{
 color: dimgrey;
@@ -35,11 +39,19 @@ font-size: 18px;
 font-weight: 100;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 600px) {
     .beliefs {
         display: flex;
-        padding: 2rem;
-        margin: auto;
+        margin: 3rem auto;
         
+    }
+    .h-text {
+        font-size: 40px;
+    }
+    .p-text {
+        font-size: 20px;
+    }
+    .pic{
+        margin: 1rem;
     }
 }

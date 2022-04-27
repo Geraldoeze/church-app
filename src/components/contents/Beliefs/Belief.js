@@ -27,10 +27,10 @@ const Beliefs = () => {
                   </p>
               </div>
               <div className='beliefs-main'>
-                  <img  className='pic' src='cchh.jpg' alt='coome'/>
+                  <img  className='pic' src='piano.jpg' alt='coome'/>
                   <h2 className='text-h2'>The Bible</h2>
                   <p className='text-p2'>We believe that the Bible has the words of God. And the word of God is power.
-                        The books of the bible, the old and new testaments contains records of the past that has happened and the future
+                        The old and new testaments contains records of the past that has happened and the future
                         that is yet to happen.
                         We study the bible in every one of our sessions and programs.
 
