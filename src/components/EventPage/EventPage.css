@@ -4,11 +4,10 @@
     margin: 0.5rem auto;
     background-color: #e6e3e3;;
     display: block;
-    height: 17rem;
+    height: 20rem;
     border-radius: 5px;
     font-family: Montserrat;
 }
-
 
 
 .event-content__program p{
@@ -23,7 +22,8 @@
 .event-content__info img {
     width: 70%;
     display: block;
-    margin: 0.5rem auto; 
+    margin: 0.5rem auto;
+    padding: 1rem; 
 }
 
 .event-content__info a {
@@ -43,6 +43,7 @@
   .event-content__main {
     display: flex;
     width: 90%;
+    height: 15rem;
   }
   h2 {
       font-size: 35px;
