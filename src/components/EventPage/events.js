@@ -14,7 +14,7 @@ export const Events = [
         name: "Prayers and Bible Study",
         days: "Wednesdays",
         time: "5pm-7pm",
-        image: "prayer.jpg",
+        image: "piano.jpg",
         desc: "",
         preacher: ""
      },
@@ -32,7 +32,7 @@ export const Events = [
         name: "Conselling",
         days: "Saturdays",
         time: "12pm-4pm",
-        image: "prayer.jpg",
+        image: "hands.jpg",
         desc: "",
         preacher: ""
      }

@@ -1,7 +1,7 @@
 .sa-main {
 text-align: center;
 width: 90%;
-margin: 0 auto;
+margin: 3rem auto;
 }
 
 .sa-image img {
@@ -12,10 +12,13 @@ margin: 0 auto;
 }
 
 .sa-text h2 {
+    font-family: Poppins;
+    font-weight: bold;
     font-size: 36px;
     letter-spacing: 3px;
 }
 .sa-text p{
+    font-family: Poppins;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1px;

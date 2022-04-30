@@ -13,16 +13,21 @@
     margin: auto;
 }
 .connect-h {
-
+  font-family: Montserrat;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 .connect-p {
+    font-family: Montserrat;
+    font-size: 17px;
   line-height: 21px;
 }
 .imga {
     width: 84%;
     display: block;
     margin: 2rem auto;
+ 
 }
 
 .btn22 {
@@ -30,7 +35,7 @@
     color: white;
 }
 
-@media (min-width: 550px){ 
+@media (min-width: 590px){ 
     .connect {
         display: flex;
     }

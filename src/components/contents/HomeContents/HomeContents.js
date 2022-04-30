@@ -3,23 +3,17 @@ import Button from '../../Button/Button';
 import EventPage from '../../EventPage/EventPage';
 import Beliefs from '../Beliefs/Belief';
 import Church from '../church/church';
+import BackImage from '../BackImage/BackImage';
 import Connect from '../connect/connect';
 import About from '../SA/About';
 import './HomeContent.css'
+import Line from '../../Button/under-line';
 
 const HomeContent = () => {
     return ( 
         <>
         {/* Top section */}
-         <div className='container'>
-             <div className='ima'></div>
-             <div className='overlay'></div>
-             <div className='text'>
-                 <h2>GLOBAL SOLUTION ASSEMBLY</h2>
-                 <h3>Sharing the love of Jesus Christ, setting the captives free, bringing hope, life, deliverance to several lifves and  bringing out the greatness in peoples live</h3>
-                 <Button>JOIN</Button>
-             </div>
-         </div>
+        <BackImage />
         {/* Middle section */}
             <section>
                 <Church />
@@ -29,13 +23,15 @@ const HomeContent = () => {
                 <Beliefs />
                 <Connect />
             </section>
-            <section className='content-section'>
-              <EventPage />
-            </section> 
-            {/* Bottom Section */}
             <section>
                 <About />
             </section>
+            {/* Bottom Section */}
+            <h1 className='event-header'>EVENT/PROGRAM</h1>
+            <section className='content-section'>
+              <EventPage />
+            </section> 
+           <Line />
         </>
      );
 }

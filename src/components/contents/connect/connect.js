@@ -7,7 +7,7 @@ const  Connect = () => {
     return ( 
         <>
           <div className='connect'>
-              <img src='lion.jpg' alt='lion' className='imga' />
+              <img src='church1.jpg' alt='connect' className='imga' />
               <div className='connect-main'>
                   <h1 className='connect-h'>Connect With Us</h1>
                   <p className='connect-p'>If you want to be recieving messages and updates on your phone.

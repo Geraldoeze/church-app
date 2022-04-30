@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Line from '../../Button/under-line';
 import './About.css';
 
 const About = () => {
@@ -25,6 +25,7 @@ const About = () => {
                 </p>
             </div>
         </div>
+        <Line />
         </React.Fragment>
      );
 }
