@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../../Button/Button';
 import './footerEvents.css';
 import SocialM from '../../Social-M/Social-M';
-import Line from '../../Button/under-line';
+
 
 const FooterEvents = () => {
     return ( 

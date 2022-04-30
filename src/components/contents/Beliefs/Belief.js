@@ -9,7 +9,7 @@ const Beliefs = () => {
            <h1 className='h-text'>What We Believe</h1> 
           <section className='beliefs'>
               <div className='beliefs-main'>
-                  <img  className='pic'  src='piano.jpg' alt='belief' />
+                  <img  className='pic'  src='sal.jpg' alt='belief' />
                   <h2 className='text-h2'>Salvation</h2>
                   <p className='text-p2'>We believe that everyone deserves salvation in this world. 
                       No matter their past or current lives, we are all God's children.
@@ -18,7 +18,7 @@ const Beliefs = () => {
                   </p>
               </div>
               <div className='beliefs-main'>
-                  <img className='pic' src='piano.jpg' alt='sme'/>
+                  <img className='pic' src='dove.jpg' alt='sme'/>
                   <h2 className='text-h2'>The Holy Spirit</h2>
                   <p className='text-p2'>The third person in the holy trinity, the spirit that filled the presence 
                      where moses was standing near the burning bush.
@@ -27,10 +27,9 @@ const Beliefs = () => {
                   </p>
               </div>
               <div className='beliefs-main'>
-                  <img  className='pic' src='piano.jpg' alt='coome'/>
+                  <img  className='pic' src='bible.jpg' alt='coome'/>
                   <h2 className='text-h2'>The Bible</h2>
-                  <p className='text-p2'>We believe that the Bible has the words of God. And the word of God is power.
-                        The old and new testaments contains records of the past that has happened and the future
+                  <p className='text-p2'>We believe that the Bible has the words of God. The old and new testaments contains records of the past that has happened and the future
                         that is yet to happen.
                         We study the bible in every one of our sessions and programs.
 

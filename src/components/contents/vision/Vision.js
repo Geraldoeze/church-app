@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../Button/Button';
+
 import Line from '../../Button/under-line';
 import './Vision.css';
 
@@ -14,7 +14,7 @@ const Vision = () => {
             </p>
           </div>  
           <div className='vision-image'>
-              <img src='cchh.jpg' alt='love' /> 
+              <img src='ima.jpg' alt='love' /> 
           </div>
         </div>
         <Line />

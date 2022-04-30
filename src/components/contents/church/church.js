@@ -15,7 +15,7 @@ const Church = () => {
                     <Button change="btn"> Learn More</Button>
                 </div>
                 <div className='church-image'>
-                    <img src='service.jpg' alt='peace' />
+                    <img src='church-p.jpg' alt='peace' />
                 </div>
             </div>
             <Vision />

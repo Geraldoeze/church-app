@@ -1,5 +1,5 @@
 import React from 'react';
-import Line from '../../Button/under-line';
+
 import './About.css';
 
 const About = () => {
