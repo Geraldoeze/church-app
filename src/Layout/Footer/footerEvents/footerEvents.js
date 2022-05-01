@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from '../../Button/Button';
+import Button from '../../../components/UIElements/Button/Button';
 import './footerEvents.css';
-import SocialM from '../../Social-M/Social-M';
+import SocialM from '../../../components/Social-M/Social-M';
 
 
 const FooterEvents = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './BackImage.css';
-import Button from '../../Button/Button';
+import Button from '../../UIElements/Button/Button';
 
 export default function BackImage() {
         
@@ -12,7 +12,7 @@ export default function BackImage() {
         <div className='text'>
             <h2>GLOBAL SOLUTION ASSEMBLY</h2>
             <h3>Sharing the love of Jesus Christ, setting the captives free, bringing hope, life, deliverance to several lifves and  bringing out the greatness in peoples live</h3>
-            <Button>JOIN</Button>
+            <Button to="/new">JOIN</Button>
         </div>
       </div>
      );

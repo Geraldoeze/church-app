@@ -1,6 +1,5 @@
 import React from 'react';
-
-import Line from '../../Button/under-line';
+import Line from '../../UIElements/Line/under-line';
 import './Vision.css';
 
 const Vision = () => {

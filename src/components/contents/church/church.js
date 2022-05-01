@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../Button/Button';
+import Button from '../../UIElements/Button/Button';
 import Vision from '../vision/Vision';
 import './church.css';
 

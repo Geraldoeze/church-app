@@ -1,13 +1,12 @@
 import React from 'react';
-import Button from '../../Button/Button';
-import EventPage from '../../EventPage/EventPage';
-import Beliefs from '../Beliefs/Belief';
-import Church from '../church/church';
-import BackImage from '../BackImage/BackImage';
-import Connect from '../connect/connect';
-import About from '../SA/About';
+import EventPage from '../../components/EventPage/EventPage';
+import Beliefs from '../../components/contents/Beliefs/Belief';
+import Church from '../../components/contents/church/church';
+import BackImage from '../../components/contents/BackImage/BackImage';
+import Connect from '../../components/contents/connect/connect';
+import About from '../../components/contents/SA/About';
 import './HomeContent.css'
-import Line from '../../Button/under-line';
+import Line from '../../components/UIElements/Line/under-line';
 
 const HomeContent = () => {
     return ( 
@@ -23,6 +22,7 @@ const HomeContent = () => {
                 <Beliefs />
                 <Connect />
             </section>
+        {/* Overseer Section */}
             <section>
                 <About />
             </section>

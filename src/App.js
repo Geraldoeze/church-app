@@ -1,10 +1,11 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Contact from "./components/contents/contact/contact";
-import HomeContent from "./components/contents/HomeContents/HomeContents";
-import Footer from "./components/Footer/footer";
-import MainNavigation from "./components/Navigation/MainNavigation";
+import Contact from "./pages/contact/contact";
+import HomeContent from "./pages/HomeContents/HomeContents";
+import Footer from './Layout/Footer/footer'
+import MainNavigation from "./Layout/Navigation/MainNavigation";
+import Join from "./pages/Join/Join";
 
 
 const App = () => {
@@ -19,6 +20,10 @@ const App = () => {
        <Route path="/contact" 
         exact={true}
         element={<Contact />}
+      />
+      <Route path="/new" 
+        exact={true}
+        element={<Join />}
       />
     </Routes>
     </main>

@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from '../Button/Button';
-import Line from '../Button/under-line';
+import Button from '../UIElements/Button/Button';
 import './EventPage.css'
 import { Events } from './events';
 
@@ -8,7 +7,7 @@ const EventPage = () => {
     return (
         <>
           {Events.map((data, id) => {
-             { return( 
+              return( 
               <>
                 <div className='event-content__main' id={id}>
                     <div className='event-content__info'>
@@ -21,7 +20,7 @@ const EventPage = () => {
                     </div>    
                 </div>
               </> 
-            )}
+            )
              })} 
     </>
     );

@@ -1,0 +1,42 @@
+.Join {
+  display: block;  
+  background-image: url('../../Images/channel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  height: 82vh;
+}
+
+.Join h2 {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+.Join-form {
+  background: rgba(194, 191, 191, 0.692);
+  height: 5rem;
+}
+.Join-form label {
+    margin: auto;
+    width: 95%;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+.Join-form input {
+    height: 2rem;
+    width: 90%;
+    margin: 1rem;
+    background: rgba(121, 121, 122, 0.288);
+    border: 0;
+    border-bottom: 0.1rem solid blanchedalmond;
+    border-left: 0.1rem solid blanchedalmond;
+}
+
+
+@media (min-width: 550px) {
+.Join {
+
+}
+
+}
