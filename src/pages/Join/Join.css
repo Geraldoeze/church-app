@@ -15,6 +15,8 @@
 .Join-form {
   background: rgba(194, 191, 191, 0.692);
   height: 5rem;
+  width: 90%;
+  margin: auto;
 }
 .Join-form label {
     margin: auto;
@@ -27,16 +29,21 @@
     height: 2rem;
     width: 90%;
     margin: 1rem;
-    background: rgba(121, 121, 122, 0.288);
+    background: rgba(121, 121, 122, 0);
     border: 0;
     border-bottom: 0.1rem solid blanchedalmond;
     border-left: 0.1rem solid blanchedalmond;
 }
 
+.btn21 {
+    color: rgb(7, 226, 208);
+   
+}
 
 @media (min-width: 550px) {
-.Join {
-
+.Join-form{
+width: 65%;
+margin: auto;
 }
 
 }
