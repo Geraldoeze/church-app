@@ -5,7 +5,7 @@ import Contact from "./pages/contact/contact";
 import HomeContent from "./pages/HomeContents/HomeContents";
 import Footer from './Layout/Footer/footer'
 import MainNavigation from "./Layout/Navigation/MainNavigation";
-import Join from "./pages/Join/Join";
+
 
 
 const App = () => {
