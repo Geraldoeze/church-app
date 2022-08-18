@@ -7,9 +7,8 @@ const NavLinks = () => {
         <li>
             <NavLink to='/' exact>HOME</NavLink>
         </li>
-        <li>
-            <NavLink to='/new'>JOIN US</NavLink>
-        </li>
+            
+        
         <li>
             <NavLink to='/contact'>CONTACT</NavLink>
         </li>

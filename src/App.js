@@ -21,10 +21,10 @@ const App = () => {
         exact={true}
         element={<Contact />}
       />
-      <Route path="/new" 
+      {/* <Route path="/new" 
         exact={true}
         element={<Join />}
-      />
+      /> */}
     </Routes>
     </main>
     )
