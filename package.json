@@ -6,6 +6,7 @@
     "primeicons": "^5.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "2.0.4",
     "react-social-icons": "^5.13.0",
