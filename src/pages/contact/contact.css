@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     background-image: url('../../Images/dark\ chr.jpg');
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--gradient-text);
@@ -80,21 +80,7 @@ input:hover {
     border: 1px solid rgb(60, 164, 250);
 }
 
-@media screen and (min-width: 1024px) {
-    .contact {
-        height: 80vh;
-    }
-    .contact-text {
-        margin-top: 5rem;
-        font-size: 60px;
-    }
-    label {
-        font-size: 35px;
-    }
-    input, textarea {
-        height: 3rem;
-    }
-}
+
 
 @media screen and (max-width: 280px) {
     .contact {
@@ -112,6 +98,30 @@ input:hover {
     }
 }
 
-@media screen and (max-width: 650px) {
-    
+@media screen and (max-width: 450px) {
+ 
+    .contact-text {
+        margin-top: 3rem;
+        font-size: 30px;
+    }
+    label {
+        font-size: 20px;
+    }
+    input, textarea {
+        height: 2.4rem;
+    }
 }
+
+@media screen and (max-width: 600px) {
+    .contact-text {
+        margin-top: 3rem;
+        font-size: 30px;
+    }
+    label {
+        font-size: 20px;
+    }
+    input, textarea {
+        height: 2.4rem;
+    }
+}
+
